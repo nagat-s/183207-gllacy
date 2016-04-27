@@ -33,6 +33,7 @@
                         </li>
                         <li>
                             <a href="#">2 товара</a>
+                             <div class="list"></div>
                         </li>
                     </ul> 
                 </div>
@@ -55,32 +56,74 @@
                 </ul>
             </div> 
             <h1>Сливочное мороженое</h1>
-            <div class="sorting-1">                    .
-                <div class="sorting">Сортировка
-                    <div>по популярности</div>
+                <div class="selection">
+                    <form action="#" method="post">
+                        <div class="sorting-1">
+                            <select name="sorting">
+                                <option value="popylarity">по популярности</option>
+                            </select>
+                            <div class="price">
+                                <label for="prise">Цена:100 руб. - 500 руб.</label>
+                                <input type="range" min="100" max="500">
+                            </div>    
+                            <div class="fatness">Жирность
+                                <ul>
+                                    <li>
+                                        <label>
+                                            <input type="radio" name="selection-pr" value="0%"
+                                            >0%
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label>
+                                            <input type="radio" name="selection-pr" value="до 10%" checked>
+                                            до 10%
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label>
+                                            <input type="radio" name="selection-pr" value="до 30%">
+                                            до 30%
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label>
+                                            <input type="radio" name="selection-pr" value="выше 30%">
+                                            выше 30%
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="sorting-2">
+                            <div class="topping">Наполнители
+                                <ul>
+                                    <li>
+                                        <input type="checkbox" name="topping" id="chocolat" checked>
+                                        <label for="chocolat"> шоколадные</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" name="topping" id="sugar" checked>
+                                        <label for="sugar"> сахарные присыпки</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" name="topping" id="fruit" >
+                                        <label for="fruit">фрукты</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" name="topping" id="syrup" >
+                                        <label for="syrup"> сиропы</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" name="topping" id="jam" >
+                                        <label for="jam"> джемы</label>
+                                    </li>
+                                </ul>
+                            </div>   
+                            <input type="submit" value="Применить">
+                        </div>
+                    </form>
                 </div>
-                <div class="price">Цена:100 - 500 руб</div> 
-                <div class="fatness">Жирность
-                    <ul>
-                        <li>0%</li>
-                        <li>до 10%</li>
-                        <li>до 30%</li>
-                        <li>выше 30%</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="sorting-2">
-                <div class="topping">
-                    <ul>
-                        <li>шоколадные</li>
-                        <li>сахарные присыпки</li>
-                        <li>фрукты</li>
-                        <li>сиропы</li>
-                        <li>джемы</li>
-                    </ul>
-                </div>   
-            </div>
-            <div>Применить</div>
             <div class="main-gallery">
                 <div class="column-1">
                     <div class="round-foto">
