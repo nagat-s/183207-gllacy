@@ -1,21 +1,120 @@
 body{
-    font-size:16 px;
+    font-size:16px;
     color: #ffffff;
     font-weight: bold;
-    line-height: 18 px;
-    font-family: "Roboto"
+    line-height: 18px;
+    font-family: "Roboto";
+    background: #849d8f;
 }
 h1{
-    font-size:60 px;
+    font-size:60px;
     color: #ffffff;
     font-weight: bold;
-    line-height: 60,35 px;
+    line-height: 60,35px;
     font-family: "Roboto"
 }
 h2{
-    font-size:35 px;
+    font-size:35px;
     color: #ffffff;
     font-weight: bold;
-    line-height: 41 px;
+    line-height: 41px;
     font-family: "Roboto";
 }
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
+}
+
+
+.container {
+  width: 1146px;
+    margin: 0 auto;
+  padding: 0 10px;
+  
+ 
+}
+
+.main-navigation {
+      float: left;
+
+  min-height: 25px;
+      width: 385px;
+
+}
+.index-logo{
+  min-height: 25px;
+      display: inline-block;
+}
+.navigation {
+  display: inline-block;  
+}
+
+.user-block {
+      float: right;
+
+   min-height: 25px;
+  width: 293px;  
+}
+.main-header {
+  margin-bottom: 5px;
+}
+.contact {
+  float: right;
+    
+}
+.
+.center {
+text-align: center;
+}
+}
+.slaid {
+    width: 87px;
+    padding-left: 0px;
+    margin-bottom: 60px;
+}
+.promo {
+   float: left;
+  width: 555px;
+  
+      margin-right: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
