@@ -45,7 +45,7 @@ h2{
     display: inline-block;
 }
 .navigation {
-  display: inline-block;  
+    display: inline-block;  
 }
 .user-block {
     float: right;
@@ -75,24 +75,24 @@ h2{
     margin-bottom: 60px;
 }
 .promo {
-   float: left;
+    float: left;
     width: 560px;
     margin-right: 20px;
 }
 .promo:last-child {
-  margin-right: 0;
-margin-bottom: 30px;
+    margin-right: 0;
+    margin-bottom: 30px;
 }
 .round-foto {
     float: left;
     margin-right: 20px;
-   margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 .round-foto:last-child {
-  margin-right: 0;
+    margin-right: 0;
 } 
 .about-us {
- color:#323232;
+    color:#323232;
     clear: both;
     min-height: 300px;
     margin-bottom: 38px;
