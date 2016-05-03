@@ -11,7 +11,7 @@ h1{
     color: #ffffff;
     font-weight: bold;
     line-height: 60,35px;
-    font-family: "Roboto"
+    font-family: "Roboto";
 }
 h2{
     font-size:35px;
@@ -20,54 +20,54 @@ h2{
     line-height: 41px;
     font-family: "Roboto";
 }
+.ice-name a {
+    color: #ffffff; 
+}
 .clearfix::after {
-  content: "";
-
-  display: table;
-  clear: both;
+    content: "";
+    
+    display: table;
+    clear: both;
 }
-
-
 .container {
-  width: 1146px;
+    width: 1146px;
     margin: 0 auto;
-  padding: 0 10px;
-  
- 
+    padding: 0 0px;
 }
-
 .main-navigation {
-      float: left;
-
-  min-height: 25px;
-      width: 385px;
-
+    float: left;
+    min-height: 25px;
+    width: 385px;
+    margin-left: 10px;
 }
 .index-logo{
-  min-height: 25px;
-      display: inline-block;
+    min-height: 25px;
+    display: inline-block;
 }
 .navigation {
   display: inline-block;  
 }
-
 .user-block {
-      float: right;
-
-   min-height: 25px;
-  width: 293px;  
+    float: right;
+    min-height: 25px;
+    width: 293px;  
 }
 .main-header {
-  margin-bottom: 5px;
+    margin-bottom: 5px;
 }
 .contact {
-  float: right;
-    
+    float: right;
 }
-.
-.center {
-text-align: center;
+.photo-slaid1 {
+    width: 647px;   
+    margin-right: auto;
+    margin-left: auto;
 }
+.mail-name {
+    width: 690px;
+    min-height: 110px;
+    margin-right: auto;
+    margin-left: auto;   
 }
 .slaid {
     width: 87px;
@@ -76,21 +76,111 @@ text-align: center;
 }
 .promo {
    float: left;
-  width: 555px;
-  
-      margin-right: 20px;
-
+    width: 560px;
+    margin-right: 20px;
 }
-
-
-
-
-
-
-
-
-
-
+.promo:last-child {
+  margin-right: 0;
+margin-bottom: 30px;
+}
+.round-foto {
+    float: left;
+    margin-right: 20px;
+   margin-bottom: 30px;
+}
+.round-foto:last-child {
+  margin-right: 0;
+} 
+.about-us {
+ color:#323232;
+    clear: both;
+    min-height: 300px;
+    margin-bottom: 38px;
+}
+.about-us-title {
+    margin-left: 20px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    font-size:24px;
+    color: #625d53;
+    font-weight: bold;
+    line-height: 30px;
+    font-family: "Roboto";
+}
+.about-us-left{
+    float: left;
+    margin-right: 20px
+}
+.about-us-right {
+    float: right;
+}
+.news .left {
+    min-height: 222px;
+    float: left;
+}
+.news .right {
+    min-height: 222px;
+    float: right;
+}
+.map {
+    clear: both;
+    min-height: 430px;
+}
+.address {
+    width: 305px;
+}
+.main-footer {
+    margin-top: 35px;
+    font-size:13px;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 18px;
+    font-family: "Roboto";
+    min-height: 100px;
+}
+.main-footer a {
+   color: #ffffff;   
+}
+.social-list {
+    min-height: 100px;
+    float: left;
+    width: 267px;
+}
+.inf {
+    min-height: 100px;
+    float: left;
+    width: 560px;
+}
+.footer-copyright {
+    float: left;
+    min-height: 100px;
+    width: 265px;
+}
+.column-1 {
+    float: left; 
+    width: 267px;
+    margin-right: 25px;
+}
+ 
+.column-2 {
+    float: left;
+    width: 267px;
+    margin-right: 25px;
+}
+.column-3 {
+    float: left;
+    width: 267px;
+    margin-right: 25px;
+}
+.column-4 {
+    float: left;
+    width: 267px;
+    margin-right: 0px;
+}
+.pagination-list {
+    width: 267px;
+    float: right
+}
 
 
 
